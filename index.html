@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable = 0>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <title>서울특별시 어린이병원</title>
+</head>
+<body>
+    <div id="wrap">
+        <div id="focus">
+            <a href="index.html">홈으로</a>
+            <a href="#nav">메뉴</a>
+            <a href="#sec1">배너</a>
+            <a href="#sec2">공지사항,로그인</a>
+            <a href="#sec3">제증명신청, 진료과안내, E소식지</a>
+            <a href="#footer">밑으로</a>
+        </div>
+        <!-- e.focus -->
+        <div id="top_wrap">
+            <ul id="top_menu">
+                <li><a href="#" class="top_logo"></a></li>
+                <li class="top_txt"><a href="#">로그인</a></li>
+                <li class="top_txt"><a href="#">회원가입</a></li>
+                <li class="m_top_gnb"><a href="#"></a></li>
+                <li class="m_gnb_menu">
+                    <a href="#" class="m_gnb_close">닫기</a>
+                    <ul class="m_gnb_menu_wrap">
+                        <img src="img/footer_l1.png" alt="서울특별시 어린이병원 로고">
+                        <li class="m_gnb_menu_tit m_gnb_1">
+                            <a href="#" class="on">진료예약</a>
+                            <ul class="m_gnb_sub1 on">
+                                <li><a href="#">인터넷 진료예약</a></li>
+                                <li><a href="#">진료예약확인</a></li>
+                                <li><a href="#">검진예약확인</a></li>
+                                <li><a href="#">진료이력조회</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_gnb_menu_tit m_gnb_2">
+                            <a href="#">진료안내</a>
+                            <ul class="m_gnb_sub2">
+                                <li><a href="#">진료과/의료진</a></li>
+                                <li><a href="#">진료일정</a></li>
+                                <li><a href="#">외래진료안내</a></li>
+                                <li><a href="#">입/퇴원안내</a></li>
+                                <li><a href="#">비급여진료안내</a></li>
+                                <li><a href="#">건강검진</a></li>
+                                <li><a href="#">재활의학과</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_gnb_menu_tit m_gnb_3">
+                            <a href="#">이용안내</a>
+                            <ul class="m_gnb_sub3">
+                                <li><a href="#">오시는길</a></li>
+                                <li><a href="#">외래 통합 안내도</a></li>
+                                <li><a href="#">주차안내</a></li>
+                                <li><a href="#">원내 편의시설</a></li>
+                                <li><a href="#">주변 편의시설</a></li>
+                                <li><a href="#">진료의뢰서</a></li>
+                                <li><a href="#">진단서발급</a></li>
+                                <li><a href="#">처방전</a></li>
+                                <li><a href="#">문병안내</a></li>
+                                <li><a href="#">전화번호안내</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_gnb_menu_tit m_gnb_4">
+                            <a href="#">고객참여</a>
+                            <ul class="m_gnb_sub4">
+                                <li><a href="#">고객의 소리</a></li>
+                                <li><a href="#">고객상담실 업무안내</a></li>
+                                <li><a href="#">칭찬합시다</a></li>
+                                <li><a href="#">감사이야기</a></li>
+                                <li><a href="#">환자권리장전</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_gnb_menu_tit m_gnb_5">
+                            <a href="#">병원소개</a>
+                            <ul class="m_gnb_sub5">
+                                <li><a href="#">주요뉴스</a></li>
+                                <li><a href="#">인사말</a></li>
+                                <li><a href="#">미션과 비전</a></li>
+                                <li><a href="#">연혁</a></li>
+                                <li><a href="#">조직도 업무안내</a></li>
+                                <li><a href="#">주요업무</a></li>
+                                <li><a href="#">e소식지</a></li>
+                                <li><a href="#">어린이병원 캐릭터</a></li>
+                                <li><a href="#">행정정보공개</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- e.top_menu -->
+        <nav id="gnb">
+            <ul class="gnb_menu">
+                <li class="gnb_menu_li"><a href="#" class="gnb_1 gnb_logo"></a></li>
+                <li class="gnb_menu_li">
+                    <a href="#" class="gnb_2 gnb_txt">진료예약</a>
+                    <ul class="gnb_sub1">
+                        <li><a href="#">인터넷 진료예약</a></li>
+                        <li><a href="#">진료예약확인</a></li>
+                        <li><a href="#">검진예약확인</a></li>
+                        <li><a href="#">진료이력조회</a></li>
+                    </ul>
+                </li>
+                <li class="gnb_menu_li">
+                    <a href="#" class="gnb_3 gnb_txt">진료안내</a>
+                    <ul class="gnb_sub2">
+                        <li><a href="#">진료과/의료진</a></li>
+                        <li><a href="#">진료일정</a></li>
+                        <li><a href="#">외래진료안내</a></li>
+                        <li><a href="#">입/퇴원안내</a></li>
+                        <li><a href="#">비급여진료안내</a></li>
+                        <li><a href="#">건강검진</a></li>
+                        <li><a href="#">재활의학과</a></li>
+                    </ul>
+                </li>
+                <li class="gnb_menu_li">
+                    <a href="#" class="gnb_4 gnb_txt">이용안내</a>
+                    <ul class="gnb_sub3">
+                        <li><a href="#">오시는길</a></li>
+                        <li><a href="#">외래 통합 안내도</a></li>
+                        <li><a href="#">주차안내</a></li>
+                        <li><a href="#">원내 편의시설</a></li>
+                        <li><a href="#">주변 편의시설</a></li>
+                        <li><a href="#">진료의뢰서</a></li>
+                        <li><a href="#">진단서발급</a></li>
+                        <li><a href="#">처방전</a></li>
+                        <li><a href="#">문병안내</a></li>
+                        <li><a href="#">전화번호안내</a></li>
+                    </ul>
+                </li>
+                <li class="gnb_menu_li">
+                    <a href="#" class="gnb_5 gnb_txt">고객참여</a>
+                    <ul class="gnb_sub4">
+                        <li><a href="#">고객의 소리</a></li>
+                        <li><a href="#">고객상담실 업무안내</a></li>
+                        <li><a href="#">칭찬합시다</a></li>
+                        <li><a href="#">감사이야기</a></li>
+                        <li><a href="#">환자권리장전</a></li>
+                    </ul>
+                </li>
+                <li class="gnb_menu_li">
+                    <a href="#" class="gnb_6 gnb_txt">병원소개</a>
+                    <ul class="gnb_sub5">
+                        <li><a href="#">주요뉴스</a></li>
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">미션과 비전</a></li>
+                        <li><a href="#">연혁</a></li>
+                        <li><a href="#">조직도 업무안내</a></li>
+                        <li><a href="#">주요업무</a></li>
+                        <li><a href="#">e소식지</a></li>
+                        <li><a href="#">어린이병원 캐릭터</a></li>
+                        <li><a href="#">행정정보공개</a></li>
+                    </ul>
+                </li>
+                <li class="gnb_menu_li gnb_7">
+                    <input type="text" name="search" id="search_box">
+                    <a href="#" class="search_ico"></a>
+                </li>
+            </ul>
+        </nav>
+        <!-- e.gnb -->
+        <nav id="quick">
+            <ul>
+                <li><a href="#" class="quick1"><img src="img/quick1.png" alt="진료예약"><br>진료예약</a></li>
+                <li><a href="#" class="quick2"><img src="img/quick2.png" alt="진료일정"><br>진료일정</a></li>
+                <li><a href="#" class="quick3"><img src="img/quick3.png" alt="의료진"><br>의료진</a></li>
+                <li><a href="#" class="quick4"><img src="img/quick4.png" alt="고객문의"><br>고객문의</a></li>
+                <li><a href="#" class="go_top"><img src="img/m_top.png" alt="상단"></a></li>
+            </ul>
+        </nav>
+        <!-- e.quick -->
+        <section id="sec1">
+            <div id="slider">
+                <ul class="panel">
+                    <li class="panel1 on">
+                        <p class="panel_txt1">어린이에게<span>행복</span>을</p>
+                        <p class="panel_txt2">부모에게<span>희망</span>을</p>
+                        <p class="panel_txt3">시민에게<span>감동</span>을</p>
+                    </li>
+                    <li class="panel2">
+                        <p class="panel_txt1">어린이에게<span>행복</span>을</p>
+                        <p class="panel_txt2">부모에게<span>희망</span>을</p>
+                        <p class="panel_txt3">시민에게<span>감동</span>을</p>
+                    </li>
+                    <li class="panel3">
+                        <p class="panel_txt1">어린이에게<span>행복</span>을</p>
+                        <p class="panel_txt2">부모에게<span>희망</span>을</p>
+                        <p class="panel_txt3">시민에게<span>감동</span>을</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- e.sec1 -->
+        <section id="sec2">
+            <div id="sec2_box1">
+                <ul class="notice"><!--h60-->
+                    <li><a href="#" class="on">공지사항</a></li>
+                    <li><a href="#">병원소식</a></li>
+                    <li><a href="#">언론보도</a></li>
+                    <li><a href="#">더보기<img src="img/more.png" alt="more"></a></li>
+                </ul>
+                <ul class="notice_box sec2_view on">
+                    <li class="sec2_txt_box">
+                        <a href="#">·발달장애인과 가족을 위한 유튜브(Youtube)채널 ‘레인보우 TV’ 걱정말아요 그대!</a>
+                        <span class="date">2020. 12. 15</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">·미리 만나는 언택트 크리스마스 축제</a>
+                        <span class="date">2020. 12. 08</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">·제11회 아동/청소년 상상애플 10주년 작품 전시회 안내</a>
+                        <span class="date">2020. 12. 04</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">·내원객 코로나19 자가점검표 안내</a>
+                        <span class="date">2020. 05. 22</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">·5월 17일 임시공휴일 휴진 안내(외래 및 선별진료소)</a>
+                        <span class="date">2020. 05. 02</span>
+                    </li>
+                </ul>
+                <!-- e.notice_box -->
+                <ul class="alarm_box sec2_view">
+                    <li class="sec2_txt_box">
+                        <a href="#">서울특별시 제1인사위원회 공고 제2021-235호 서울특별시어린이병원 시간</a>
+                        <span class="date">2021. 04. 15</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">서울특별시어린이병원 임기제공무원(정신건강의학과,재활의학과,영상의학과) 채용 공고</a>
+                        <span class="date">2021. 04. 12</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">2021년 온라인 부모교육(우리아이 잠재력을 이끄는 반응성 상호작용) 참여 안내</a>
+                        <span class="date">2021. 03. 22</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">2021년 정신건강의학과 치료프로그램 모집 안내</a>
+                        <span class="date">2020. 12. 15</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">(정신과)문제행동 예방과 대처를 위한 매뉴얼</a>
+                        <span class="date">2015. 05. 27</span>
+                    </li>
+                </ul>
+                <!-- e.alarm_box -->
+                <ul class="news_box sec2_view">
+                    <li class="sec2_txt_box">
+                        <a href="#">위로와 희망을 전하는 온라인 문화예술소통 채널</a>
+                        <span class="date">2021. 01. 04</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">어린이병원, 발달장애인을 위한 유튜브 소통채널 '레인보우 뮤지션 TV' 확대·운영</a>
+                        <span class="date">2020. 12. 21</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">어린이병원, 발달장애아동 미술작품 온택트로 관람하세요!</a>
+                        <span class="date">2020. 12. 07</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">서울특별시 어린이병원, 공공보건의료계획 평가 "최우수 기관" 선정</a>
+                        <span class="date">2020. 12. 01</span>
+                    </li>
+                    <li class="sec2_txt_box">
+                        <a href="#">서울특별시 어린이병원, 슬기로운 직장생활 시즌 2</a>
+                        <span class="date">2020. 12. 01</span>
+                    </li>
+                </ul>
+                <!-- e.news_box -->
+            </div>
+            <!-- e.sec2_box1 -->
+            <form class="login_wrap">
+                <fieldset class="login_box">
+                    <ul class="login_box_wrap">
+                        <li class="login_box1">
+                            <ul class="login_sel">
+                                <li class="login_btn"><a href="#" class="on">로그인</a></li>
+                                <li class="guest_login_btn"><a href="#">비회원이용</a></li>
+                            </ul>
+                        </li>
+                        <li class="login_box2">
+                            <input type="text" name="id/회원번호" id="login_id_box" class="active" placeholder="ID/회원 번호">
+                            <input type="text" name="진료번호" id="guest_num_box" placeholder="진료 번호">
+                            <p class="check_id">아이디/회원번호를 확인하세요.</p>
+                            <p class="check_num">진료번호를 확인해주세요.</p>
+                        </li>
+                        <li class="login_box3">
+                            <input type="password" name="비밀번호" id="login_pw_box" class="active" placeholder="비밀번호">
+                            <input type="tel" name="전화번호" id="guest_phone_box" placeholder="휴대폰 번호">
+                            <p class="check_pw">비밀번호를 확인하세요.</p>
+                            <p class="check_phone">전화번호를 확인해주세요.</p>
+                        </li>
+                        <li class="login_box4">
+                            <a href="#">회원가입</a>
+                            <a href="#">아이디/비밀번호 찾기</a>
+                        </li>
+                        <li class="login_box5">
+                            <a href="#"><img src="img/login_bt.png" alt="로그인 버튼"></a>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+            <!-- e.login_wrap -->
+        </section>
+        <!-- e.sec2 -->
+        <section id="sec3">
+            <div class="sec3_box1">
+                <ul class="sec3_box1_wrap">
+                    <li class="sec3_box_tit">제증명 신청</li>
+                    <li class="sec3_box_txt">증명서를 편리하게 온라인으로 <br> 신청하세요.</li>
+                    <li><a href="#" class="sec3_box1_btn"></a></li>
+                </ul>
+            </div>
+            <div class="sec3_box2">
+                <ul class="sec3_box2_wrap">
+                    <li class="sec3_box_tit">진료과 안내</li>
+                    <li class="sec3_box_txt">서울특별시 어린이병원의 <br>진료과를 안내합니다.</li>
+                    <li><a href="#" class="sec3_box2_btn"></a></li>
+                </ul>
+            </div>
+            <div class="sec3_box3">
+                <ul class="sec3_box3_wrap">
+                    <li class="sec3_box3_1">
+                        <span>E-소식지</span>
+                        <a href="#">더보기<img src="img/more.png" alt="more"></a>
+                    </li>
+                    <li class="sec3_box3_img"><a href="#"></a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- e.sec3 -->
+        <section id="sec4">
+            <img src="img/sub_banner_1160x440.png" alt="코로나19바이러스 감염증">
+        </section>
+        <!-- e.sec4 -->
+        <footer id="footer">
+            <div class="footer1">
+                <ul class="f_1_box">
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">정보공개</a></li>
+                    <li><a href="#">영상정보처리기기 운영관리방침</a></li>
+                    <li><a href="#">환자권리장전</a></li>
+                    <li><a href="#">의료서비스헌장</a></li>
+                </ul>
+            </div>
+            <!-- e.footer1 -->
+            <div class="footer2">
+                <ul class="f_2_box">
+                    <li>
+                        <a href="#" class="footer2_l1"></a>
+                    </li>
+                    <li>
+                        <p>
+                            주소 : (06801) 서울시 서초구 헌릉로 260(내곡동 375) <br>
+                            문의전화 02-570-8000 <br>
+                            © Seoul Metropolitan Government all rights reserved
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#" class="footer2_l2"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer2_l3"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer2_l4"></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- e.footer2 -->
+        </footer>
+        <!-- e.footer -->
+    </div>
+</body>
+</html>
