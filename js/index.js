@@ -1,6 +1,6 @@
 $('document').ready(function(){
-    const windowWidth = $(window).width();
-    const windowS = $(window).scrollTop();
+    let windowWidth = $(window).width();
+    let windowS = $(window).scrollTop();
     $('a').click(function(e){
         e.preventDefault()
     });
@@ -13,6 +13,7 @@ $('document').ready(function(){
     }
 
     $(window).resize(function(){
+        windowWidth = $(window).width();
         if(windowWidth<800){
             mobJs();
         }//e.windowResize_M
