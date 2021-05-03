@@ -614,6 +614,10 @@ header, section, footer, aside, nav, main, article, figure {
     width: 100vw;
     overflow-x: hidden; }
 
+  body {
+    padding: 0 15px;
+    position: relative; }
+
   #wrap #top_wrap {
     position: fixed;
     z-index: 500;
@@ -629,9 +633,9 @@ header, section, footer, aside, nav, main, article, figure {
         position: absolute;
         top: 20px; }
         #wrap #top_wrap #top_menu .top_txt:nth-child(2) {
-          right: 15%; }
+          right: 20%; }
         #wrap #top_wrap #top_menu .top_txt:nth-child(3) {
-          right: 1%; }
+          right: 8%; }
       #wrap #top_wrap #top_menu .m_top_gnb {
         display: block; }
         #wrap #top_wrap #top_menu .m_top_gnb a {
