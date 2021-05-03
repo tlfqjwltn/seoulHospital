@@ -4,8 +4,8 @@ $('document').ready(function(){
     $('a').click(function(e){
         e.preventDefault()
     });
-    commonJs();
     
+    commonJs();
     if(windowWidth<800){
         mobJs();
     } else if(windowWidth>=800){
@@ -21,7 +21,6 @@ $('document').ready(function(){
             webJs();
         }
         // e.windowResize_W
-        console.log(windowWidth);
         });
         
         
