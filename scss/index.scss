@@ -198,13 +198,14 @@
 
 @media screen and (max-width:800px){
     html,body{width: 100vw;overflow-x: hidden;}
+    body{padding: 0 15px;position: relative;}
     #wrap{
         #top_wrap{position: fixed;z-index: 500;line-height: 16px;
             #top_menu{width: 100%;
                 .top_logo{position: absolute;left: 50%;margin-left: -56px;}
                 .top_txt{font-size: 12px;position: absolute;top: 20px;
-                    &:nth-child(2){right:15%}
-                    &:nth-child(3){right: 1%}
+                    &:nth-child(2){right:20%}
+                    &:nth-child(3){right: 8%}
                 }
                 .m_top_gnb{display: block;
                     a{display: block;width: 30px;height: 19px;background-image: url(../img/allmenu.png);position: absolute;left: 2%;top: 12px;}
